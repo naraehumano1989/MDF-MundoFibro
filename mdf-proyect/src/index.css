@@ -24,3 +24,9 @@ body {
   background-repeat: repeat-x;
   padding: 0%;
 }
+
+.vector-footer {
+  background-image: url("../src/assets/img/Vecto2r.svg");
+  background-repeat: repeat-x;
+  padding: 0%;
+}

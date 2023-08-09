@@ -1,4 +1,4 @@
-
+import { BuildingStorefrontIcon } from '@heroicons/react/24/solid'
 function Nav() {
     return (
 
@@ -8,7 +8,7 @@ function Nav() {
                 <li><a href="#" className="text-center flex flex-row justify-center items-center justify-items-center content-center gap-2">Método Montessori <span class="material-symbols-outlined text-[#C4AB84] font-bold">expand_more</span></a></li>
                 <li><a href="#" className="text-center flex flex-row justify-center items-center justify-items-center content-center gap-2">¿Cómo Pintar? <span class="material-symbols-outlined text-[#C4AB84] font-bold">expand_more</span></a></li>
                 <li><a href="#" className="text-center flex flex-row justify-center items-center justify-items-center content-center gap-2">Sobre Nosotros <span class="material-symbols-outlined text-[#C4AB84] font-bold">expand_more</span></a></li>
-                <li><a href="https://www.mdf.com.ar/" className="bg-[#EBE4DF] rounded-xl text-center flex flex-row justify-center items-center justify-items-center content-center gap-2 p-3">Tienda <span class="material-symbols-outlined text-[#C4AB84] font-bold">local_convenience_store</span></a></li>
+                <li><a href="https://www.mdf.com.ar/" className="bg-[#EBE4DF] rounded-xl text-center flex flex-row justify-center items-center justify-items-center content-center gap-2 p-3">Tienda <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84]" /></a></li>
             </ul>
         </div>
 

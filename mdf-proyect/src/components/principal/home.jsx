@@ -1,5 +1,5 @@
 import logo from '../../assets/img/mdf-logo.png'
-import portada from '../../assets/img/niño-mdf.jpg'
+import portada from '../../assets/img/niño-mdf.jpeg'
 import Nav from '../menu/Nav.jsx'
 function Home() {
     return (
@@ -10,9 +10,9 @@ function Home() {
                 <img src={logo} alt="logo mdf" className='ml-[10%] mt-[15px] w-[200px] h-[205.40px] rounded-full absolute z-1'/>
             </div>
             <div id="portada">
-                <img src={portada} alt='foto portada mdf' className='w-full h-[55rem] m-auto'/>
+                <img src={portada} alt='foto portada mdf' className='w-full h-auto m-auto'/>
             </div>
-            <div className='w-full h-14 vector-footer mb-0 absolute bottom-0'></div>
+            <div className='w-full h-14 vector-footer mb-0 fixed z-1 bottom-0'></div>
         </div>
     )
 }

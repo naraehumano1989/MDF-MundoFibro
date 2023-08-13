@@ -1,8 +1,10 @@
 import Home from './components/principal/home.jsx'
+import Productos from './components/productos/Products.jsx'
 function App() {
   return (
     <div>
-      <Home/>
+      <Home />
+      <Productos/>
     </div>
     
   )

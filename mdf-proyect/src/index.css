@@ -30,5 +30,22 @@ body {
   background-repeat: repeat-x;
   padding: 0%;
   position: absolute;
-  top: 150%;
+  top: 140%;
+}
+
+.fondo {
+  background-image: url("../src/assets/img/fondo-textura.svg");
+  background-color: #F5F5F5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.itemDot {
+  background-image: url("../src/assets/img/item-dot.svg");
+  background-color: #EBE4DF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
 }

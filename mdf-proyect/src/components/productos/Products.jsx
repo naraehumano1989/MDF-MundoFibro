@@ -4,11 +4,10 @@ import Sonrisa from '../../assets/img/sonrisa.svg'
 import { BuildingStorefrontIcon } from '@heroicons/react/24/solid'
 function Products() {
     return (
-        <div className=' flex flex-col content-center justify-center content-center items-center '>
+        <div className=' flex flex-col content-center justify-center content-center items-center fondo mt-5'>
             <div className='h-14 vector-fondo'></div>
-            <Nav />
             <div id='productos' className='mb-10'>
-                <h2 className='text-xl mb-2 text-center font-bold'>Contamos con una línea completa de productos fabricados en MDF, listos para pintar.</h2>
+            <h2 className='text-xl mb-2 text-center font-bold'>Contamos con una línea completa de productos fabricados en MDF, listos para pintar.</h2>
             <p className='text-lg text-left m-2'>¿Cuáles son los beneficios del MDF?</p>
             <ul className='grid grid-cols-1 justify-start justify-items-start mb-10'>
                 <li className='flex flex-row content-center justify-center items-center gap-2'><img src={ Sonrisa} alt='punto 1' className='w-[20px] h-[20px]'/><p>Se puede pintar o teñir fácilmente.</p></li>

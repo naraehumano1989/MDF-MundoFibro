@@ -49,3 +49,12 @@ body {
   height: 2rem;
   text-align: center;
 }
+
+.fondo-pintar {
+  background-image: url("../src/assets/img/pincelada.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200rem;
+  height: 40rem;
+  text-align: center;
+}

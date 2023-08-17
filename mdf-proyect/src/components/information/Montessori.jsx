@@ -1,6 +1,7 @@
 import img_1 from "../../assets/img/img-montessori-1.jpg";
 import img_2 from "../../assets/img/img-montessori-2.jpg";
 import img_3 from "../../assets/img/img-montessori-3.jpg";
+import Volver from "../menu/Back.jsx";
 function Montessori() {
   return (
     <div id="montessori" className="w-[100%] bg-[#EBE4DF] mr-0">
@@ -15,9 +16,11 @@ function Montessori() {
           fill="white"
         />
       </svg>
+
+      <Volver />
       <div className="w-full h-[100px]">
         <div className="fondo-titulo-l"></div>
-        <h1 className="font-bold m-auto text-2xl text-center mt-10">
+        <h1 className="font-bold m-auto text-2xl text-center">
           ¿Por que elegimos <br /> el método Montessori?
         </h1>
         <div className="fondo-titulo-r"></div>

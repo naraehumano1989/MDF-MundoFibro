@@ -27,7 +27,7 @@ function Nav() {
         </li>
         <li>
           <a
-            href="#"
+            href="#pintar"
             className="text-center flex flex-row justify-center items-center justify-items-center content-center gap-2"
           >
             ¿Cómo Pintar?{" "}

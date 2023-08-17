@@ -1,3 +1,10 @@
+import Vertical from "../menu/Nav-vertical";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
+import { PhoneIcon } from "@heroicons/react/24/solid";
+import instagramIcon from "../../assets/img/bi_instagram.png";
+import facebookIcon from "../../assets/img/facebook.png";
+import whatsappIcon from "../../assets/img/whatsapp.png";
+
 function Footer() {
   return (
     <div id="footer" className="bg-[#EBE4DF] m-auto">
@@ -15,19 +22,56 @@ function Footer() {
       <div className="flex flex-row m-10">
         <div className="flex flex-col w-[30%] justify-center content-center items-center">
           {" "}
-          <h2 className="text-[15px] md:text-[24px] font-bold text-center">
+          <h2 className="text-[15px] md:text-[24px] font-bold text-center m-2">
             Navegación
           </h2>
+          <Vertical />
         </div>
         <div className="flex flex-col w-[30%] justify-center content-center items-center">
           <h2 className="text-[15px] md:text-[24px] font-bold text-center">
             ¡Seguinos!
           </h2>
+          <div className="flex flex-row gap-3 m-5">
+            <div className="bg-[#C4AB84] rounded-full w-[95px] h-[95px] border-[2px] border-white flex justify-center content-center items-center">
+              <a href="https://www.instagram.com/mundodefibro/" target="_blank">
+                <img src={instagramIcon} />
+              </a>
+            </div>
+            <div className="bg-[#C4AB84] rounded-full w-[95px] h-[95px] border-[2px] border-white flex justify-center content-center items-center">
+              <a href="https://www.facebook.com/mundodefibro" target="_blank">
+                <img src={facebookIcon} />
+              </a>
+            </div>
+          </div>
         </div>
         <div className="flex flex-col w-[30%] justify-center content-center items-center">
           <h2 className="text-[15px] md:text-[24px] font-bold text-center">
             Contactanos
           </h2>
+          <div className="flex flex-col gap-3 m-5 ">
+            <div className="flex flex-row items-center">
+              <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
+                <img
+                  src={whatsappIcon}
+                  alt="whatsapp"
+                  className="w-6 h-6 m-2"
+                />
+              </div>
+              <p className="m-2">1154906966</p>
+            </div>
+            <div className="flex flex-row items-center">
+              <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
+                <PhoneIcon className="w-5 h-5"></PhoneIcon>
+              </div>
+              <p className="m-2">1154906966</p>
+            </div>
+            <div className="flex flex-row items-center">
+              <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
+                <EnvelopeIcon className="w-5 h-5"></EnvelopeIcon>
+              </div>
+              <p className="m-2">info.mundodefibro@gmail.com</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

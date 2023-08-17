@@ -38,7 +38,7 @@ function Nav() {
         </li>
         <li>
           <a
-            href="#"
+            href="#somos"
             className="text-center flex flex-row justify-center items-center justify-items-center content-center gap-2"
           >
             Sobre Nosotros{" "}

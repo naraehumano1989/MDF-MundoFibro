@@ -1,4 +1,3 @@
-import Nav from "../menu/Nav.jsx";
 import Item from "../productoItem/ProductItem.jsx";
 import Sonrisa from "../../assets/img/sonrisa.svg";
 import { BuildingStorefrontIcon } from "@heroicons/react/24/solid";

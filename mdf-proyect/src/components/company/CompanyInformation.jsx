@@ -1,4 +1,5 @@
 import familia from "../../assets/img/familia.png";
+import Volver from "../menu/Back.jsx";
 function Somos() {
   return (
     <div id="somos" className="fondo">
@@ -13,6 +14,7 @@ function Somos() {
           fill="#EBE4DF"
         />
       </svg>
+      <Volver />
       <div className="flex flex-row">
         <div className="flex flex-col w-[50%] m-10">
           <h1 className="text-[15px] md:text-[25px] font-bold m-10">

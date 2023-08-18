@@ -6,7 +6,7 @@ function Pintar() {
   return (
     <div id="pintar" className="bg-white m-auto">
       <Volver />
-      <div className="fondo-pintar md:flex hidden justify-center items-center content-center absolute md:top-[510%] right-0">
+      <div className="fondo-pintar md:flex hidden justify-center items-center content-center absolute md:top-[520%] right-0">
         <img
           src={img_pintar}
           className="md:w-[300px] w-[150px] h-auto z-1 pt-12 rounded-[70px] "

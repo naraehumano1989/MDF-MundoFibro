@@ -24,7 +24,7 @@ function Ideas() {
         <img
           src={safari}
           alt="inspiracion safari"
-          className="rounded-2xl md:w-[29%] w-[50%] h-[250px] m-10"
+          className="rounded-2xl md:w-[29%] w-[55%] h-[250px] m-10"
         />
         <div className="flex md:flex-col flex-row justify-center items-center gap-3">
           <div className="w-[50px] h-[50px] rounded-full bg-[#287052]"></div>
@@ -68,7 +68,7 @@ function Ideas() {
         <img
           src={nordica}
           alt="inspiracion nórdica"
-          className="rounded-2xl md:w-[35%] w-[60%] h-[250px] m-10"
+          className="rounded-2xl md:w-[49%] w-[60%] h-[250px] m-10"
         />
         <div className="flex md:flex-col flex-row justify-center items-center gap-3">
           <div className="w-[50px] h-[50px] rounded-full bg-[#CCDEDF]"></div>

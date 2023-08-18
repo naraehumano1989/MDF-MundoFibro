@@ -36,7 +36,7 @@ function Montessori() {
           <img
             src={img_1}
             alt="montessori 1"
-            className="md:w-3/4 w-[50%] h-auto rounded-[50px]"
+            className="w-3/4 h-auto rounded-[50px]"
           />
         </div>
         <div className="flex flex-col content-center items-center">

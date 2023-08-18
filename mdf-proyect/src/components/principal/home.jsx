@@ -9,7 +9,7 @@ function Home() {
         <img
           src={portada}
           alt="foto portada mdf"
-          className="w-full h-auto m-auto"
+          className="w-full md:h-auto h-[450px] m-auto"
         />
       </div>
     </div>

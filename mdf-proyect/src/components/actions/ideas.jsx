@@ -16,23 +16,23 @@ function Ideas() {
         />
       </svg>
       <div>
-        <h1 className="font-bold text-2xl m-10">
+        <h1 className="font-bold md:text-2xl text-xl text-center m-10">
           ¿No sabés que color elegir? ¡Te dejamos algunas ideas!
         </h1>
       </div>
-      <div className="flex flex-row">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center">
         <img
           src={safari}
           alt="inspiracion safari"
-          className="rounded-2xl w-[29%] h-[250px] m-10"
+          className="rounded-2xl md:w-[29%] w-[50%] h-[250px] m-10"
         />
-        <div className="flex flex-col justify-center items-center gap-3">
+        <div className="flex md:flex-col flex-row justify-center items-center gap-3">
           <div className="w-[50px] h-[50px] rounded-full bg-[#287052]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#B65938]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#FFAB4A]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#CDCDCB]"></div>
         </div>
-        <div className="flex flex-col justify-center content-center items-center">
+        <div className="flex flex-col justify-center content-center items-center  mt-10 mb-10">
           <h2 className="text-3xl font-bold">Inspiración Safari</h2>
           <p className="text-center w-[50%] font-bold">
             Convertí la habitación de los más chicos en un espacio amigable en
@@ -42,19 +42,19 @@ function Ideas() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center">
         <img
           src={watermelon}
           alt="inspiracion watermelon"
-          className="rounded-2xl w-[35%] h-[250px] m-10"
+          className="rounded-2xl md:w-[35%] w-[60%] h-[250px] m-10"
         />
-        <div className="flex flex-col justify-center items-center gap-3">
+        <div className="flex md:flex-col flex-row justify-center items-center gap-3">
           <div className="w-[50px] h-[50px] rounded-full bg-[#C1789A]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#DFBBCA]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#89B684]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#CFCDC9]"></div>
         </div>
-        <div className="flex flex-col justify-center content-center items-center">
+        <div className="flex flex-col justify-center content-center items-center mt-10 mb-10">
           <h2 className="text-3xl font-bold">Inspiración Watermelon</h2>
           <p className="text-center w-[50%] font-bold">
             El color rosa es el favorito de muchos niños. Combinado con tonos de
@@ -64,19 +64,19 @@ function Ideas() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center">
         <img
           src={nordica}
           alt="inspiracion nórdica"
-          className="rounded-2xl w-[49%] h-[250px] m-10"
+          className="rounded-2xl md:w-[35%] w-[60%] h-[250px] m-10"
         />
-        <div className="flex flex-col justify-center items-center gap-3">
+        <div className="flex md:flex-col flex-row justify-center items-center gap-3">
           <div className="w-[50px] h-[50px] rounded-full bg-[#CCDEDF]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#89BEC1]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#DFCDB4]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#E7D7AD]"></div>
         </div>
-        <div className="flex flex-col justify-center content-center items-center">
+        <div className="flex flex-col justify-center content-center items-center mt-10 mb-10">
           <h2 className="text-3xl font-bold">Inspiración Nórdica</h2>
           <p className="text-center w-[50%] font-bold">
             El estilo nórdico busca aportar calidez y luminosidad, utilizando

@@ -28,9 +28,9 @@ body {
 .vector-footer {
   background-image: url("../src/assets/img/Vecto2r.svg");
   background-repeat: repeat-x;
-  padding: 0%;
   position: absolute;
-  top: 150%;
+  top: 140%;
+  display: block;
 }
 
 .fondo {
@@ -54,7 +54,39 @@ body {
   background-image: url("../src/assets/img/pincelada.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200rem;
-  height: 40rem;
+  width: 50%;
+  height: 50%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  .vector-footer {
+    top: 50%;
+  }
+
+  .fondo {
+    background-size: auto;
+  }
+
+  .itemDot {
+    width: 12%;
+    height: auto;
+  }
+}
+
+.menu-resposive.open {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 40px;
+  /* Ajusta la posición vertical según necesites */
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+#resposive {
+  display: none;
 }

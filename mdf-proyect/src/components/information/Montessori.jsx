@@ -25,7 +25,7 @@ function Montessori() {
         </h1>
         <div className="fondo-titulo-r"></div>
       </div>
-      <div className="flex flex-row justify-center content-center items-center">
+      <div className="flex md:flex-row flex-col gap-20 justify-center content-center items-center">
         <div className="flex flex-col content-center items-center">
           <div className="bg-[#C4AB84] rounded-full w-[200px] h-[200px] flex text-center items-center justify-center">
             <h2 className="text-white font-bold text-6xl z-1 text-center">1</h2>
@@ -36,7 +36,7 @@ function Montessori() {
           <img
             src={img_1}
             alt="montessori 1"
-            className="w-3/4 h-auto rounded-[50px]"
+            className="md:w-3/4 w-[50%] h-auto rounded-[50px]"
           />
         </div>
         <div className="flex flex-col content-center items-center">
@@ -82,7 +82,7 @@ function Montessori() {
             la independencia, la voluntad y la responsabilidad.
           </li>
           <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">3.</p>
+            <p className="itemDot m-2 ">3.</p>
             Interés: el niño aprende mejor cuando está interesado en lo que está
             aprendiendo. Ayuda a la comprensión y la concentración.
           </li>

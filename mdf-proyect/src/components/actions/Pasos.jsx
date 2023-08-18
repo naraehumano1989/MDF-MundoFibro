@@ -4,7 +4,7 @@ import paso3 from "../../assets/img/paso-3.jpg";
 function Pasos() {
   return (
     <div id="pasos">
-      <div className="bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex flex-row justify-center items-center content-center gap-10">
+      <div className="bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex md:flex-row flex-col justify-center items-center content-center gap-10">
         <div className="flex flex-col content-center items-center">
           <img
             src={paso1}
@@ -21,12 +21,12 @@ function Pasos() {
           </p>
         </div>
         <div className="border-e-black border-e-2 h-[50%]"></div>
-        <div className="flex flex-col content-center items-center">
+        <div className="flex flex-col content-center items-center justify-center text-center">
           <img
             src={paso2}
             className="rounded-[50px] w-[250px] h-[200px] ml-5 mt-5"
           />
-          <h1 className="text-2xl font-bold text-[#C4AB84] mt-14">
+          <h1 className="text-2xl font-bold text-[#C4AB84] mt-10">
             Paso 2: Colocar una capa de imprimación
           </h1>
           <p className="w-[300px] text-center mt-5 mb-10">

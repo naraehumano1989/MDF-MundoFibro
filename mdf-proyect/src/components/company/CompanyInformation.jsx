@@ -15,12 +15,15 @@ function Somos() {
         />
       </svg>
       <Volver />
-      <div className="flex flex-row">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center">
+        <div className="w-[50%] flex items-center content-center justify-center">
+          <img src={familia} alt="familia unida" />
+        </div>
         <div className="flex flex-col w-[50%] m-10">
-          <h1 className="text-[15px] md:text-[25px] font-bold m-10">
+          <h1 className="text-[20px] md:text-[35px] font-bold m-10">
             Sobre nosotros
           </h1>
-          <h2 className="text-[15px] md:text-[25px] font-bold m-10">
+          <h2 className="text-[20px] md:text-[35px] font-bold m-10">
             Nuestra historia
           </h2>
           <p>
@@ -31,7 +34,7 @@ function Somos() {
             buscamos proponer soluciones prácticas e innovadoras para contribuir
             al desarrollo y crecimiento de los más chicos.
           </p>
-          <h2 className="text-[15px] md:text-[25px] font-bold m-10">
+          <h2 className="text-[20px] md:text-[35px] font-bold m-10">
             Nuestros objetivos
           </h2>
           <p>
@@ -46,9 +49,6 @@ function Somos() {
             clientes, ofreciendo la posibilidad de personalizar sus productos
             según sus preferencias y necesidades.
           </p>
-        </div>
-        <div className="w-[50%] flex items-center content-center justify-center">
-          <img src={familia} alt="familia unida" />
         </div>
       </div>
       <h2 className="text-center text-xl md:text-2xl">

@@ -42,10 +42,10 @@ function Products() {
         </h3>
         <a
           href="https://www.mdf.com.ar/"
-          className="bg-[#EBE4DF] rounded-xl text-xl font-bold text-center flex flex-row justify-center items-center justify-items-center content-center gap-2 w-[25%] m-auto py-5 px-2"
+          className="bg-[#EBE4DF] rounded-xl md:text-xl text-sm font-bold text-center flex flex-row justify-center items-center justify-items-center content-center gap-2 w-[25%] m-auto py-5 px-2"
         >
           Tienda Online{" "}
-          <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84]" />
+          <BuildingStorefrontIcon className="md:h-6 md:w-6 text-[#C4AB84]" />
         </a>
       </div>
     </div>

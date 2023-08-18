@@ -19,53 +19,53 @@ function Footer() {
           fill="#F5F5F5"
         />
       </svg>
-      <div className="flex flex-row m-10">
-        <div className="flex flex-col w-[30%] justify-center content-center items-center">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center m-10">
+        <div className="flex flex-col w-[30%] justify-center content-center items-center mb-10">
           {" "}
-          <h2 className="text-[15px] md:text-[24px] font-bold text-center m-2">
+          <h2 className="text-[25px] md:text-[34px] font-bold text-center m-2">
             Navegación
           </h2>
           <Vertical />
         </div>
         <div className="flex flex-col w-[30%] justify-center content-center items-center">
-          <h2 className="text-[15px] md:text-[24px] font-bold text-center">
+          <h2 className="text-[25px] md:text-[34px] font-bold text-center">
             ¡Seguinos!
           </h2>
           <div className="flex flex-row gap-3 m-5">
-            <div className="bg-[#C4AB84] rounded-full w-[95px] h-[95px] border-[2px] border-white flex justify-center content-center items-center">
+            <div className="bg-[#C4AB84] rounded-full md:w-[95px] w-[45px] md:h-[95px] h-[45px] md:border-[2px] border-[0.5px] border-white flex justify-center content-center items-center">
               <a href="https://www.instagram.com/mundodefibro/" target="_blank">
-                <img src={instagramIcon} />
+                <img src={instagramIcon} className="w-[25px] md:w-[50px]" />
               </a>
             </div>
-            <div className="bg-[#C4AB84] rounded-full w-[95px] h-[95px] border-[2px] border-white flex justify-center content-center items-center">
+            <div className="bg-[#C4AB84] rounded-full md:w-[95px] w-[45px] md:h-[95px] h-[45px] md:border-[2px] border-[0.5px] border-white flex justify-center content-center items-center">
               <a href="https://www.facebook.com/mundodefibro" target="_blank">
-                <img src={facebookIcon} />
+                <img src={facebookIcon} className="w-[25px] md:w-[50px]" />
               </a>
             </div>
           </div>
         </div>
         <div className="flex flex-col w-[30%] justify-center content-center items-center">
-          <h2 className="text-[15px] md:text-[24px] font-bold text-center">
+          <h2 className="text-[25px] md:text-[34px] font-bold text-center">
             Contactanos
           </h2>
           <div className="flex flex-col gap-3 m-5 ">
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row items-center text-center content-center items-center justify-center">
               <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
                 <img
                   src={whatsappIcon}
                   alt="whatsapp"
-                  className="w-6 h-6 m-2"
+                  className="md:w-6 md:h-6 h-4 w-4 m-2"
                 />
               </div>
               <p className="m-2">1154906966</p>
             </div>
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row items-center justify-center">
               <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
                 <PhoneIcon className="w-5 h-5"></PhoneIcon>
               </div>
               <p className="m-2">1154906966</p>
             </div>
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row items-center justify-center">
               <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
                 <EnvelopeIcon className="w-5 h-5"></EnvelopeIcon>
               </div>

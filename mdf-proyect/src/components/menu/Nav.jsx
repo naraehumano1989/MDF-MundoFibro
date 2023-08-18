@@ -110,7 +110,7 @@ function Nav() {
                     className="text-center flex flex-row gap-2"
                   >
                     Productos{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[140px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[55%]">
                       expand_more
                     </span>
                   </a>
@@ -121,7 +121,7 @@ function Nav() {
                     className="text-center flex flex-row gap-2"
                   >
                     Método Montessori{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[125px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[55%]">
                       expand_more
                     </span>
                   </a>
@@ -129,7 +129,7 @@ function Nav() {
                 <li className="border-b-2 border-black w-[80%]">
                   <a href="#pintar" className="text-center flex flex-row gap-2">
                     ¿Cómo Pintar?{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[145px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold  ml-[55%]">
                       expand_more
                     </span>
                   </a>
@@ -137,7 +137,7 @@ function Nav() {
                 <li className="border-b-2 border-black w-[80%]">
                   <a href="#somos" className="text-center flex flex-row gap-2">
                     Sobre Nosotros{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[105px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold  ml-[55%]">
                       expand_more
                     </span>
                   </a>
@@ -148,7 +148,7 @@ function Nav() {
                     className="text-center flex flex-row gap-2"
                   >
                     Tienda Online{" "}
-                    <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84] ml-[150px]" />
+                    <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84] ml-[55%]" />
                   </a>
                 </li>
                 <li className="h-[20px]"></li>

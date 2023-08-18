@@ -62,7 +62,7 @@ body {
 @media (max-width: 768px) {
 
   .vector-footer {
-    top: 50%;
+    top: 450px;
   }
 
   .fondo {

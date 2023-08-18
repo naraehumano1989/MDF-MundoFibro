@@ -88,7 +88,7 @@ function Nav() {
             <Bars3Icon className="text-[#C4AB84] w-6 h-6 font-bold" />
           </button>
           {isMenuOpen && (
-            <div className="menu-resposive z-1 absolute bg-[#F5F5F5] w-[100%] h-[500px] top-0 p-5">
+            <div className="menu-resposive z-1 absolute bg-[#F5F5F5] w-[100%] h-[650px] top-0 p-5">
               <div className="flex flex-row justify-center items-center content-center bg-[#EBE4DF] w-full h-[25%]">
                 <img
                   src={logo}
@@ -110,7 +110,7 @@ function Nav() {
                     className="text-center flex flex-row gap-2"
                   >
                     Productos{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[300px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[140px]">
                       expand_more
                     </span>
                   </a>
@@ -121,7 +121,7 @@ function Nav() {
                     className="text-center flex flex-row gap-2"
                   >
                     Método Montessori{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[225px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[125px]">
                       expand_more
                     </span>
                   </a>
@@ -129,7 +129,7 @@ function Nav() {
                 <li className="border-b-2 border-black w-[80%]">
                   <a href="#pintar" className="text-center flex flex-row gap-2">
                     ¿Cómo Pintar?{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[265px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[145px]">
                       expand_more
                     </span>
                   </a>
@@ -137,7 +137,7 @@ function Nav() {
                 <li className="border-b-2 border-black w-[80%]">
                   <a href="#somos" className="text-center flex flex-row gap-2">
                     Sobre Nosotros{" "}
-                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[150px] ml-[255px]">
+                    <span class="material-symbols-outlined text-[#C4AB84] font-bold ml-[105px]">
                       expand_more
                     </span>
                   </a>
@@ -148,9 +148,10 @@ function Nav() {
                     className="text-center flex flex-row gap-2"
                   >
                     Tienda Online{" "}
-                    <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84] ml-[270px]" />
+                    <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84] ml-[150px]" />
                   </a>
                 </li>
+                <li className="h-[20px]"></li>
               </ul>
             </div>
           )}

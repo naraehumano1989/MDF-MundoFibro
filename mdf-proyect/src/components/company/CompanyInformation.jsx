@@ -16,17 +16,17 @@ function Somos() {
       </svg>
       <Volver />
       <div className="flex md:flex-row flex-col justify-center content-center items-center">
-        <div className="w-[50%] flex items-center content-center justify-center">
+        <div className="md:w-[50%] w-[80%] flex items-center content-center justify-center mt-5">
           <img src={familia} alt="familia unida" />
         </div>
-        <div className="flex flex-col w-[50%] m-10">
-          <h1 className="text-[20px] md:text-[35px] font-bold m-10">
+        <div className="flex flex-col md:w-[50%] w-[80%] m-10">
+          <h1 className="text-[30px] md:text-[45px] font-bold mt-10">
             Sobre nosotros
           </h1>
-          <h2 className="text-[20px] md:text-[35px] font-bold m-10">
+          <h2 className="text-[20px] md:text-[35px] font-bold mt-5">
             Nuestra historia
           </h2>
-          <p>
+          <p className="mb-10">
             Somos una familia emprendedora que busca crecer y que confía y
             apuesta en la industria argentina. MDF - Mundo de fibro nació de la
             búsqueda de objetos únicos, orientados especialmente a los más
@@ -34,7 +34,7 @@ function Somos() {
             buscamos proponer soluciones prácticas e innovadoras para contribuir
             al desarrollo y crecimiento de los más chicos.
           </p>
-          <h2 className="text-[20px] md:text-[35px] font-bold m-10">
+          <h2 className="text-[20px] md:text-[35px] font-bold">
             Nuestros objetivos
           </h2>
           <p>

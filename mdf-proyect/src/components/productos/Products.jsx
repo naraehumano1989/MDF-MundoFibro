@@ -17,19 +17,19 @@ function Products() {
         </p>
         <ul className="grid grid-cols-1 justify-start justify-items-start mb-10">
           <li className="flex flex-row content-center justify-center items-center gap-2">
-            <img src={Sonrisa} alt="punto 1" className="w-[20px] h-[20px]" />
+            <img src={Sonrisa} alt="Beneficio 1" className="w-[20px] h-[20px]" />
             <p>Se puede pintar o teñir fácilmente.</p>
           </li>
           <li className="flex flex-row content-center justify-center items-center gap-2">
-            <img src={Sonrisa} alt="punto 1" className="w-[20px] h-[20px]" />
+            <img src={Sonrisa} alt="Beneficio 2" className="w-[20px] h-[20px]" />
             <p>Soporta hasta 90 kg.</p>
           </li>
           <li className="flex flex-row content-center justify-center items-center gap-2">
-            <img src={Sonrisa} alt="punto 1" className="w-[20px] h-[20px]" />
+            <img src={Sonrisa} alt="Beneficio 3" className="w-[20px] h-[20px]" />
             <p>Con los cuidados necesarios, no se deforma ni se agrieta.</p>
           </li>
           <li className="flex flex-row content-center justify-center items-center gap-2">
-            <img src={Sonrisa} alt="punto 1" className="w-[20px] h-[20px]" />
+            <img src={Sonrisa} alt="Beneficio 4" className="w-[20px] h-[20px]" />
             <p>
               Esta hecho de maderas recicladascontribuyendo así a la
               preservación de los recursos naturales.

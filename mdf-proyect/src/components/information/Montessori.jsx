@@ -35,7 +35,7 @@ function Montessori() {
           </p>
           <img
             src={img_1}
-            alt="montessori 1"
+            alt="montessori razón 1"
             className="w-3/4 h-auto rounded-[50px]"
           />
         </div>
@@ -48,7 +48,7 @@ function Montessori() {
           </p>
           <img
             src={img_2}
-            alt="montessori 2"
+            alt="montessori razón 2"
             className="w-3/4  h-auto rounded-[50px]"
           />
         </div>
@@ -61,7 +61,7 @@ function Montessori() {
           </p>
           <img
             src={img_3}
-            alt="montessori 3"
+            alt="montessori razón 3"
             className="w-3/4 h-auto rounded-[50px]"
           />
         </div>

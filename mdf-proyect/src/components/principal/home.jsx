@@ -8,7 +8,7 @@ function Home() {
       <div id="portada">
         <img
           src={portada}
-          alt="foto portada mdf"
+          alt="foto portada mdf - niño jugando"
           className="w-full md:h-auto h-[450px] m-auto"
         />
       </div>

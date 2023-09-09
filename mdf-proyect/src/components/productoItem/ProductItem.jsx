@@ -4,7 +4,7 @@ function ProductITem() {
   const items = data.products;
   return (
     <div className="w-full h-full m-auto flex justify-center items-center content-center">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-7 justify-center content-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 justify-center content-center items-center">
         {items.map((productData, index) => {
           // Verifica si el objeto tiene el atributo "product"
           const product = productData.product
@@ -13,7 +13,7 @@ function ProductITem() {
           const { id, name, description, src } = product;
 
           return (
-            <div className="flex flex-col gap-2 justify-center items-center content-center bg-white border border-[5px] border-[#EBE4DF] rounded-[45px] w-[285px] h-[310px]">
+            <div className="flex flex-col gap-2 justify-center items-center content-center bg-white hover:border-[#5a4334] border border-[5px] border-[#EBE4DF] rounded-[45px] w-[285px] h-[310px]">
               <img
                 src={src != null ? src : null}
                 alt={name}

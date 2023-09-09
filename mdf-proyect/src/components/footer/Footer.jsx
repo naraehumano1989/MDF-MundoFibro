@@ -19,7 +19,7 @@ function Footer() {
           fill="#F5F5F5"
         />
       </svg>
-      <div className="flex md:flex-row flex-col justify-center content-center items-center m-10">
+      <div className="text-center flex md:flex-row flex-col justify-center content-center items-center m-10">
         <div className="flex flex-col w-[30%] justify-center content-center items-center mb-10">
           {" "}
           <h2 className="text-[25px] md:text-[34px] font-bold text-center m-2">
@@ -59,12 +59,12 @@ function Footer() {
               </div>
               <p className="m-2">1154906966</p>
             </div>
-            <div className="flex flex-row items-center justify-center">
+            {/*<div className="flex flex-row items-center justify-center">
               <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
                 <PhoneIcon className="w-5 h-5"></PhoneIcon>
               </div>
               <p className="m-2">1154906966</p>
-            </div>
+            </div> */}
             <div className="flex flex-row items-center justify-center">
               <div className="bg-[#C4AB84] rounded-full w-[35px] h-[35px] border-[2px] border-white text-white flex content-center items-center justify-center">
                 <EnvelopeIcon className="w-5 h-5"></EnvelopeIcon>

@@ -3,36 +3,6 @@
         {
             "product": {
                 "id": 1,
-                "name": "Triangulo didáctico",
-                "description": "Descripción del producto 1",
-                "src": "https://i.postimg.cc/gr69QRf2/item-1.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 2,
-                "name": "Escalador Montessori",
-                "description": "Descripción del producto 2",
-                "src": "https://i.postimg.cc/NKDZmxrp/item-10.jpg"
-            }
-        },
-        {
-            "id": 3,
-            "name": "Caminador interactivo",
-            "description": "Descripción del producto 3",
-            "src": "https://i.postimg.cc/CZKXNfGY/item-11.jpg"
-        },
-        {
-            "product": {
-                "id": 4,
-                "name": "Lámpara nórdica",
-                "description": "Descripción del producto 4",
-                "src": "https://i.postimg.cc/qtMV5FdP/item-2.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 5,
                 "name": "Balancín hamaca",
                 "description": "Descripción del producto 5",
                 "src": "https://i.postimg.cc/94NSNFb9/item-12.jpg"
@@ -40,23 +10,7 @@
         },
         {
             "product": {
-                "id": 6,
-                "name": "Rampa de autos",
-                "description": "Descripción del producto 6",
-                "src": "https://i.postimg.cc/ykFMYK6q/item-3.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 7,
-                "name": "Encastre didáctico Cubo sonrisa",
-                "description": "Descripción del producto 7",
-                "src": "https://i.postimg.cc/8FKQQbpj/item-4.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 8,
+                "id": 2,
                 "name": "Rampa Montessori",
                 "description": "Descripción del producto 8",
                 "src": "https://i.postimg.cc/D8kVT0Td/item-8.jpg"
@@ -64,34 +18,10 @@
         },
         {
             "product": {
-                "id": 9,
+                "id": 3,
                 "name": "Gimnasio Montessori",
                 "description": "Descripción del producto 9",
                 "src": "https://i.postimg.cc/tZs0XVJD/item-6.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 10,
-                "name": "Carro para juguetes",
-                "description": "Descripción del producto 10",
-                "src": "https://i.postimg.cc/y3RwR4FZ/item-7.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 11,
-                "name": "Estantes escandinavos x 3",
-                "description": "Descripción del producto 11",
-                "src": "https://i.postimg.cc/J4g3Q4M5/image-52.jpg"
-            }
-        },
-        {
-            "product": {
-                "id": 12,
-                "name": "Organizador artístico",
-                "description": "Descripción del producto 12",
-                "src": "https://i.postimg.cc/Gtmd74L4/item-9.jpg"
             }
         }
     ]

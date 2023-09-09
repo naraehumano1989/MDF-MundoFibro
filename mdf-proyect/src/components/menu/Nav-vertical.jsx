@@ -18,9 +18,9 @@ function Vertical() {
         <li>
           <a
             href="https://www.mdf.com.ar/"
-            className="bg-[#F5F5F5] rounded-xl flex flex-row justify-center items-center justify-items-center content-center gap-2 p-3 m-2"
+            className="border border-[#5a4334] hover:shadow-md hover:text-[#F5F5F5] text-[#5a4334] hover:bg-[#C4AB84] bg-[#F5F5F5] rounded-xl flex flex-row justify-center items-center justify-items-center content-center gap-2 p-3 m-2"
           >
-            Tienda <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84]" />
+            Tienda <BuildingStorefrontIcon className="h-6 w-6 " />
           </a>
         </li>
       </ul>

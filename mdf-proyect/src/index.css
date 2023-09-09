@@ -25,19 +25,13 @@ body {
   padding: 0%;
 }
 
-.vector-footer {
-  background-image: url("../src/assets/img/Vecto2r.svg");
-  background-repeat: repeat-x;
-  position: absolute;
-  top: 140%;
-  display: block;
-}
-
-.fondo {
-  background-image: url("../src/assets/img/fondo-textura.svg");
-  background-color: #F5F5F5;
+.fondo-pincelada {
+  background-image: url("../src/assets/img/imagen-fondo-pintura.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
 }
 
 .itemDot {
@@ -50,16 +44,7 @@ body {
   text-align: center;
 }
 
-.fondo-pintar {
-  background-image: url("../src/assets/img/pincelada.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-  height: 50%;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
 
   .vector-footer {
     top: 510px;
@@ -73,7 +58,17 @@ body {
     width: 12%;
     height: auto;
   }
+
+  .vector-footer {
+    display: none;
+  }
 }
+
+
+
+
+
+
 
 .menu-resposive.open {
   display: flex;

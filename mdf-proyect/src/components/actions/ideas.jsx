@@ -20,13 +20,13 @@ function Ideas() {
           ¿No sabés que color elegir? ¡Te dejamos algunas ideas!
         </h1>
       </div>
-      <div className="flex md:flex-row flex-col justify-center content-center items-center">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center mt-5 ml-10">
         <img
           src={safari}
           alt="inspiracion safari"
-          className="rounded-2xl md:w-[29%] w-[55%] h-[250px] m-10"
+          className="rounded-2xl md:w-[450px] w-[250px] h-auto"
         />
-        <div className="flex md:flex-col flex-row justify-center items-center gap-3">
+        <div className="flex md:flex-col flex-row justify-center items-center gap-3 md:ml-5 mt-5">
           <div className="w-[50px] h-[50px] rounded-full bg-[#287052]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#B65938]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#FFAB4A]"></div>
@@ -42,13 +42,13 @@ function Ideas() {
           </p>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col justify-center content-center items-center">
+      <div className="flex md:flex-row text-center flex-col justify-center content-center items-center mt-5 ml-10">
         <img
           src={watermelon}
           alt="inspiracion watermelon"
-          className="rounded-2xl md:w-[35%] w-[60%] h-[250px] m-10"
+          className="rounded-2xl md:w-[450px] w-[250px] h-auto"
         />
-        <div className="flex md:flex-col flex-row justify-center items-center gap-3">
+        <div className="flex md:flex-col flex-row justify-center items-center gap-3 md:ml-5 mt-5">
           <div className="w-[50px] h-[50px] rounded-full bg-[#C1789A]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#DFBBCA]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#89B684]"></div>
@@ -64,13 +64,13 @@ function Ideas() {
           </p>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col justify-center content-center items-center">
+      <div className="flex md:flex-row flex-col justify-center content-center items-center mt-5 ml-10 mr-10 mb-5">
         <img
           src={nordica}
           alt="inspiracion nórdica"
-          className="rounded-2xl md:w-[49%] w-[60%] h-[250px] m-10"
+          className="rounded-2xl md:w-[450px] w-[250px] h-auto"
         />
-        <div className="flex md:flex-col flex-row justify-center items-center gap-3">
+        <div className="flex md:flex-col flex-row justify-center items-center content-center gap-3 md:ml-5 mt-5">
           <div className="w-[50px] h-[50px] rounded-full bg-[#CCDEDF]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#89BEC1]"></div>
           <div className="w-[50px] h-[50px] rounded-full bg-[#DFCDB4]"></div>
@@ -88,7 +88,7 @@ function Ideas() {
           </p>
         </div>
       </div>
-      <div className="h-[100px]"></div>
+      <div className="h-[300px]"></div>
     </div>
   );
 }

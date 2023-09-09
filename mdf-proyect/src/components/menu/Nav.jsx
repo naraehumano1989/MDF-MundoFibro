@@ -4,7 +4,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
-import logo from "../../assets/img/mdf-logo.png";
+import logo from "../../../public/mdf_logo.svg";
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -62,9 +62,9 @@ function Nav() {
         <li>
           <a
             href="https://www.mdf.com.ar/"
-            className="bg-[#EBE4DF] rounded-xl text-center flex flex-row justify-center items-center justify-items-center content-center gap-2 p-3"
+            className="shadow-md hover:text-[#5a4334] font-bold text-[#C4AB84] bg-white hover:bg-[#EBE4DF] rounded-xl text-center flex flex-row justify-center items-center justify-items-center content-center gap-2 p-3"
           >
-            Tienda <BuildingStorefrontIcon className="h-6 w-6 text-[#C4AB84]" />
+            Tienda <BuildingStorefrontIcon className="h-6 w-6 " />
           </a>
         </li>
       </ul>

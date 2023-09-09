@@ -4,7 +4,7 @@ import paso3 from "../../assets/img/paso-3.jpg";
 function Pasos() {
   return (
     <div id="pasos">
-      <div className="bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex md:flex-row flex-col justify-center items-center content-center gap-10">
+      <div className="bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex md:flex-row flex-col justify-center items-center content-center gap-10 mt-10">
         <div className="flex flex-col content-center items-center">
           <img
             src={paso1}

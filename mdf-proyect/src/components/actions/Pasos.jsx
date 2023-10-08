@@ -3,7 +3,7 @@ import paso2 from "../../assets/img/paso-2.jpg";
 import paso3 from "../../assets/img/paso-3.jpg";
 function Pasos() {
   return (
-    <div id="pasos">
+    <div id="pasos" className="mt-[150px] mb-0">
       <div className="bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex md:flex-row flex-col justify-center items-center content-center gap-10 mt-10">
         <div className="flex flex-col content-center items-center">
           <img

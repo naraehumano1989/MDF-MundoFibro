@@ -25,14 +25,14 @@ function Montessori() {
         </h1>
         <div className="fondo-titulo-r"></div>
       </div>
-      <div className="flex md:flex-row flex-col gap-20 justify-center content-center items-center">
-        <div className="flex flex-col content-center items-center">
+      <div className="flex md:flex-row flex-col gap-20 content-center items-center justify-center">
+        <div className="flex flex-col content-center items-center justify-end m-[0px]">
           <div className="bg-[#C4AB84] rounded-full w-[100px] h-[100px] md:w-[200px] md:h-[200px] flex text-center items-center justify-center">
-            <h2 className="text-white font-bold  text-xl md:text-6xl z-1 text-center">
+            <h2 className="text-white font-bold  text-xl md:text-6xl text-center">
               1
             </h2>
           </div>
-          <p className="font-bold text-center m-5 w-[50%] h-[50%]">
+          <p className="font-bold text-center m-5 w-[60%] h-[50%]">
             Ayuda a los chicos a desarrollar la confianza y la autoestima <br />
           </p>
           <img
@@ -47,7 +47,7 @@ function Montessori() {
               2
             </h2>
           </div>
-          <p className="font-bold text-center m-5 w-[50%] h-[50%]">
+          <p className="font-bold text-center m-5 w-[60%] h-[50%]">
             Utiliza materiales nobles que impactan positivamente en el planeta
           </p>
           <img
@@ -58,7 +58,7 @@ function Montessori() {
         </div>
         <div className="flex flex-col content-center items-center">
           <div className="bg-[#C4AB84] rounded-full w-[100px] h-[100px] md:w-[200px] md:h-[200px] flex text-center items-center justify-center">
-            <h2 className="text-white font-bold  text-xl md:text-6xl z-1 text-center">
+            <h2 className="text-white font-bold  text-xl md:text-6xl text-center">
               3
             </h2>
           </div>
@@ -72,61 +72,87 @@ function Montessori() {
           />
         </div>
       </div>
-      <div className="font-bold m-2">
-        <h2 className="ml-2 text-2xl ">Principios Montessori</h2>
+      <div className="font-bold m-auto ml-[20%] mt-10">
+        <h2 className="ml-2 text-2xl mb-10">Principios Montessori</h2>
         <ul className="text-md">
-          <li className="flex flex-row items-center content-center">
-            <p className="itemDot text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
               1.
             </p>
-            <p className="w-1/2 md:text-lg text-sm">
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
               Pensamiento y movimiento: el pensamiento y el movimiento están
               estrechamente ligados. El movimiento potencia el pensamiento y el
               aprendizaje.
             </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center ml-2">
-            <p className="itemDot text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
               2.
             </p>
-            Libre elección: el aprendizaje y el bienestar mejoran cuando las
-            personas sienten que tienen control sobre sus vidas. Se desarrollan
-            la independencia, la voluntad y la responsabilidad.
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              Libre elección: el aprendizaje y el bienestar mejoran cuando las
+              personas sienten que tienen control sobre sus vidas. Se
+              desarrollan la independencia, la voluntad y la responsabilidad.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2 ">3.</p>
-            Interés: el niño aprende mejor cuando está interesado en lo que está
-            aprendiendo. Ayuda a la comprensión y la concentración.
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              3.
+            </p>
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              Interés: el niño aprende mejor cuando está interesado en lo que
+              está aprendiendo. Ayuda a la comprensión y la concentración.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">4.</p>
-            La recompensa es interna: la practica lleva al logro. Contribuye a
-            la autoestima, al sentido de responsabilidad y al pensamiento
-            crítico.
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              4.
+            </p>
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              La recompensa es interna: la practica lleva al logro. Contribuye a
+              la autoestima, al sentido de responsabilidad y al pensamiento
+              crítico.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">5.</p>
-            La recompensa es interna: la practica lleva al logro. Contribuye a
-            la autoestima, al sentido de responsabilidad y al pensamiento
-            crítico.
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              5.
+            </p>
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              La recompensa es interna: la practica lleva al logro. Contribuye a
+              la autoestima, al sentido de responsabilidad y al pensamiento
+              crítico.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">6.</p>
-            Aprendiendo dentro del contexto: el aprendizaje situado en contexto
-            significativo es más profundo y rico que el aprendizaje en un
-            contexto abstracto.
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              6.
+            </p>
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              Aprendiendo dentro del contexto: el aprendizaje situado en
+              contexto significativo es más profundo y rico que el aprendizaje
+              en un contexto abstracto.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">7.</p>
-            Interacción maestro/alumno: el maestro observa y acompaña,
-            posibilita al niño actuar, querer y pensar por sí mismo, ayudándolo
-            a desarrollar confianza y disciplina interior.
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              7.
+            </p>
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              Interacción maestro/alumno: el maestro observa y acompaña,
+              posibilita al niño actuar, querer y pensar por sí mismo,
+              ayudándolo a desarrollar confianza y disciplina interior.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">8.</p>
-            Interacción maestro/alumno: el maestro observa y acompaña,
-            posibilita al niño actuar, querer y pensar por sí mismo, ayudándolo
-            a desarrollar confianza y disciplina interior.
+          <li className="flex flex-row items-center content-center m-2">
+            <p className="bg-[#C3AB83] rounded-full text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              8.
+            </p>
+            <p className="w-[65%] md:text-lg text-sm ml-5 mb-5">
+              Interacción maestro/alumno: el maestro observa y acompaña,
+              posibilita al niño actuar, querer y pensar por sí mismo,
+              ayudándolo a desarrollar confianza y disciplina interior.
+            </p>
           </li>
         </ul>
       </div>

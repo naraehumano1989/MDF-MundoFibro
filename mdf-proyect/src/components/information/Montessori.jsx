@@ -72,19 +72,23 @@ function Montessori() {
           />
         </div>
       </div>
-      <div className="font-bold m-[5%]">
+      <div className="font-bold m-2">
         <h2 className="ml-2 text-2xl ">Principios Montessori</h2>
         <ul className="text-md">
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2 w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+          <li className="flex flex-row items-center content-center">
+            <p className="itemDot text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
               1.
             </p>
-            Pensamiento y movimiento: el pensamiento y el movimiento están
-            estrechamente ligados. El movimiento potencia el pensamiento y el
-            aprendizaje.
+            <p className="w-1/2 md:text-lg text-sm">
+              Pensamiento y movimiento: el pensamiento y el movimiento están
+              estrechamente ligados. El movimiento potencia el pensamiento y el
+              aprendizaje.
+            </p>
           </li>
-          <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">2.</p>
+          <li className="m-2 flex flex-row items-center content-center ml-2">
+            <p className="itemDot text-sm md:text-lg w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              2.
+            </p>
             Libre elección: el aprendizaje y el bienestar mejoran cuando las
             personas sienten que tienen control sobre sus vidas. Se desarrollan
             la independencia, la voluntad y la responsabilidad.

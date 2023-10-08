@@ -38,8 +38,10 @@ body {
   background-image: url("../src/assets/img/item-dot.svg");
   background-color: #EBE4DF;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 1400px) {

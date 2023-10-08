@@ -39,8 +39,6 @@ body {
   background-color: #EBE4DF;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 2rem;
-  height: 2rem;
   text-align: center;
 }
 
@@ -52,11 +50,6 @@ body {
 
   .fondo {
     background-size: auto;
-  }
-
-  .itemDot {
-    width: 12%;
-    height: auto;
   }
 
   .vector-footer {

@@ -27,8 +27,10 @@ function Montessori() {
       </div>
       <div className="flex md:flex-row flex-col gap-20 justify-center content-center items-center">
         <div className="flex flex-col content-center items-center">
-          <div className="bg-[#C4AB84] rounded-full w-[200px] h-[200px] flex text-center items-center justify-center">
-            <h2 className="text-white font-bold text-6xl z-1 text-center">1</h2>
+          <div className="bg-[#C4AB84] rounded-full w-[100px] h-[100px] md:w-[200px] md:h-[200px] flex text-center items-center justify-center">
+            <h2 className="text-white font-bold  text-xl md:text-6xl z-1 text-center">
+              1
+            </h2>
           </div>
           <p className="font-bold text-center m-5 w-[50%] h-[50%]">
             Ayuda a los chicos a desarrollar la confianza y la autoestima <br />
@@ -40,8 +42,10 @@ function Montessori() {
           />
         </div>
         <div className="flex flex-col content-center items-center">
-          <div className="bg-[#C4AB84] rounded-full w-[200px] h-[200px] flex text-center items-center justify-center">
-            <h2 className="text-white font-bold text-6xl z-1 text-center">2</h2>
+          <div className="bg-[#C4AB84] rounded-full w-[100px] h-[100px] md:w-[200px] md:h-[200px] flex text-center items-center justify-center">
+            <h2 className="text-white font-bold  text-xl md:text-6xl z-1 text-center">
+              2
+            </h2>
           </div>
           <p className="font-bold text-center m-5 w-[50%] h-[50%]">
             Utiliza materiales nobles que impactan positivamente en el planeta
@@ -53,8 +57,10 @@ function Montessori() {
           />
         </div>
         <div className="flex flex-col content-center items-center">
-          <div className="bg-[#C4AB84] rounded-full w-[200px] h-[200px] flex text-center items-center justify-center">
-            <h2 className="text-white font-bold text-6xl z-1 text-center">3</h2>
+          <div className="bg-[#C4AB84] rounded-full w-[100px] h-[100px] md:w-[200px] md:h-[200px] flex text-center items-center justify-center">
+            <h2 className="text-white font-bold  text-xl md:text-6xl z-1 text-center">
+              3
+            </h2>
           </div>
           <p className="font-bold text-center m-5 w-[50%] h-[50%]">
             Contribuye a dar forma a espacios armoniosos y educativos{" "}
@@ -70,7 +76,9 @@ function Montessori() {
         <h2 className="ml-2 text-2xl ">Principios Montessori</h2>
         <ul className="text-md">
           <li className="m-2 flex flex-row items-center content-center">
-            <p className="itemDot m-2">1.</p>
+            <p className="itemDot m-2 w-[25px] h-[25px] md:w-[50px] md:h-[50px] flex justify-center items-center content-center">
+              1.
+            </p>
             Pensamiento y movimiento: el pensamiento y el movimiento están
             estrechamente ligados. El movimiento potencia el pensamiento y el
             aprendizaje.

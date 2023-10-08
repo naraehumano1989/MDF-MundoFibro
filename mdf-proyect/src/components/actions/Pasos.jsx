@@ -4,11 +4,11 @@ import paso3 from "../../assets/img/paso-3.jpg";
 function Pasos() {
   return (
     <div id="pasos" className="mt-[150px] mb-0">
-      <div className="bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex md:flex-row flex-col justify-center items-center content-center gap-10 mt-10">
-        <div className="flex flex-col content-center items-center">
+      <div className="pt-10 bg-[#EBE4DF] w-[80%] h-auto m-auto rounded-[100px] flex md:flex-row flex-col justify-center items-start content-end gap-10 mt-10">
+        <div className="flex flex-col content-center items-center justify-center">
           <img
             src={paso1}
-            className="rounded-[50px] w-[250px] h-[200px] ml-5 mt-10"
+            className="rounded-[50px] w-[250px] h-[200px] ml-5"
           />
           <h1 className="text-2xl font-bold text-[#C4AB84] mt-10">
             Paso 1: Lijar
@@ -24,7 +24,7 @@ function Pasos() {
         <div className="flex flex-col content-center items-center justify-center text-center">
           <img
             src={paso2}
-            className="rounded-[50px] w-[250px] h-[200px] ml-5 mt-5"
+            className="rounded-[50px] w-[250px] h-[200px] ml-5"
           />
           <h1 className="text-2xl font-bold text-[#C4AB84] mt-10">
             Paso 2: Colocar una capa de imprimación
@@ -38,7 +38,7 @@ function Pasos() {
         <div className="flex flex-col content-center items-center">
           <img
             src={paso3}
-            className="rounded-[50px] w-[250px] h-[200px] ml-5 mt-5"
+            className="rounded-[50px] w-[250px] h-[200px] ml-5"
           />
           <h1 className="text-2xl font-bold text-[#C4AB84] mt-10">
             Paso 3: Pintar

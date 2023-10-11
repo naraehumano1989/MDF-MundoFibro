@@ -2,9 +2,9 @@ import portada from "../../assets/img/niño-mdf.jpg";
 import Nav from "../menu/Nav.jsx";
 function Home() {
   return (
-    <div>
+    <div className="border-box w-full">
       <div className="h-14"></div>
-      <Nav />
+      <Nav/>
       <div id="portada">
         <img
           src={portada}
